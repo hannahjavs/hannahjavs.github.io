@@ -3,21 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
+    <title>Hannah | Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.css">
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <script src="./js/main.js" charset="utf-8"></script>
   </head>
@@ -27,7 +20,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Hannah Jadavji</a>
+      <a class="navbar-brand" href="#top">Hannah Jadavji</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -39,6 +32,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
+
             <h1 class="display-3">Hello, welcome to my portfolio</h1>
             <p class="lead">I am Hannah and I'm a full stack web developer</p>
           </div>
@@ -46,10 +40,13 @@
       </div>
     </div>
 
+
+
     <main class="container">
       <div class="row">
         <section class="col-md-12">
           <div class="row">
+
             <div class="col-lg-3 col-sm-3">
             <a href="#smurfrace"><img src="images/smurfrace_1.jpg" alt="Smurf Race" class="img-fluid img-thumbnail" data-target="#smurfrace"></a>
             </div>
@@ -64,6 +61,7 @@
 
             <div class="col-lg-3 col-sm-3">
               <a href="#javify"><img src="images/javify_1.jpg" alt="Javify" class="img-fluid img-thumbnail" data-target="#javify"><a/>
+
             </div>
           </div>
         </section>
@@ -71,21 +69,63 @@
     </main>
 
 
-    <!-- SMURF RACE Modal 1 -->
-    <!-- <div class="modal fade" id="smurfrace" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="images/smurfrace_1.jpg" alt="Smurf Race" class="img-fluid">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+    <!-- INFO SECTIONS -->
+    <!-- SMURF SECTION -->
+    <div id="smurfrace" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <h1 class="display-3">Smurf Race</h1>
+            <p class="lead">Race</p>
+
+            <a href="#top"><p data-target="#top">Back to top</p><a/>
+
           </div>
         </div>
       </div>
-    </div> -->
-    <!-- AVOCADO Modal 2 -->
-    <!-- <div class="modal fade" id="trainModel2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    </div>
+      <h3>The Smurf Race is a two player game where the players have to press alternate keys in order to trigger their smurf character to move. There is a 3-2-1 countdown and then “GO!” which flashes when the players can start pressing keys in order to move. During the race along the way the user must press another key in order to jump and squash mushrooms to keep moving. There are sound effects for the squashing of mushrooms and reaching the finish line. A score is tallied and the users can keep track of who is getting to the finish line first.</h3>
+      <!-- screenshots of smurfrace app -->
+      <div class="col-lg-4 col-sm-6">
+        <img src="images/smurfrace_1.jpg" alt="Avocado" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#smurfrace_1">
+      </div>
+      <!-- SMURF RACE Modal -->
+      <div class="modal fade" id="smurfrace_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="images/smurfrace_1.jpg" alt="Smurf Race" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- AVOCADO SECTION -->
+    <div id="avocado" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <h1 class="display-3">Avocado Recipe Board App</h1>
+            <p class="lead">Project 2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>To use the app, you must register as a member, you will then be able to see all of the recipes other users have and be able to leave comments, mark your favourites and rate recipes. You can then create a new recipe once you are a registered member. When you are adding a recipe you can type in the ingredients and the method and every time you hit enter it will create a bullet point for your recipe.</h3>
+
+
+    <!-- screenshots of avocado app -->
+    <div class="col-lg-4 col-sm-6">
+      <img src="images/avocado_1.jpg" alt="Avocado" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#avocado_1">
+    </div>
+    <!-- MAPP Modal -->
+    <div class="modal fade" id="avocado_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
@@ -96,69 +136,24 @@
           </div>
         </div>
       </div>
-    </div> -->
-    <!-- MAPP Modal 3 -->
-    <!-- <div class="modal fade" id="trainModel3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="images/mapp_1.jpg" alt="Mapp" class="img-fluid">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- JAVIFY Modal 4 -->
-    <!-- <div class="modal fade" id="trainModel4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="images/javify_1.jpg" alt="Javify" class="img-fluid">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-
-    <!-- INFO SECTIONS -->
-    <div id="smurfrace" class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 offset-md-1">
-            <h1 class="display-3">Smurf Race</h1>
-            <p class="lead">Race</p>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div id="avocado" class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 offset-md-1">
-            <h1 class="display-3">Avocado</h1>
-            <p class="lead">Avocado</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- MAPP SECTION -->
     <div id="mapp" class="jumbotron jumbotron-fluid">
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
-            <h1 class="display-3">Mapp</h1>
+            <h1 class="display-3">Mapp App</h1>
             <p class="lead">Mapp</p>
           </div>
         </div>
       </div>
     </div>
+    <h3>Mapp is a social planning app. An application to allow people to create social events and efit proposed events, and to allow creators of events to email out the invitations. This is a MEAN stack application, built in a group of three, with an Angular 1 front end, and making extensive use of the Google Maps, Places and Directions APIs. My role within the team consisted of taking the lead on the Express API back end, and the on route line that was created using markers when clicked by the user. Additionally, I made the design choices such as colour schemes, layout of pages and map style.
+    </h3>
+    <p>Technologies used:
+      Express, js, AngularJS, Google Maps API, Gulp, SCSS, MongoDB with Mongoose models, HTML5</p>
+
     <!-- screenshots of mapp app -->
     <div class="col-lg-4 col-sm-6">
       <img src="images/mapp_1.jpg" alt="Mapp" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#mapp_1">
@@ -189,6 +184,8 @@
         </div>
       </div>
     </div>
+    <h3>The user can add as many markers as they like which will show up in alphabetical order and if the user makes a mistake they can drag and drop or click the marker to erase that point in the route.  A user has their own profile page where they can see the posts that they have posted and can go back to the routes they have posted and either edit the route on the map or the playlist or podcast they have chosen to go with that route. </h3>
+
     <!-- screenshots of javify app -->
     <div class="col-lg-4 col-sm-6">
       <img src="images/javify_1.jpg" alt="Javify" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#javify_1">
