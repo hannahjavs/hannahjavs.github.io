@@ -12,6 +12,16 @@ p {
   text-align: center;
 }
 
+a {
+  color: rgb(255, 147, 79);
+  text-decoration: none;
+  text-align: center;
+    a:hover {
+     color: black;
+     text-decoration: underline;
+  }
+}
+
 
 .display-3 {
     font-size: 3rem;
@@ -27,6 +37,16 @@ p {
 }
 
 .img-thumbnail {
-  /*height: 50%;
-  width: 50%;*/
+    /*padding: 1.40rem;
+    padding-bottom: 10%;*/
+
+    padding: 50px 50px 50px 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    max-width: 100%;
+    height: auto;
 }
