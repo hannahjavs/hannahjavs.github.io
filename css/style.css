@@ -1,27 +1,40 @@
 h1 {
-  color: rgb(255, 147, 79);
+  /*color: rgb(255, 147, 79);*/
   font-size: 50px;
 }
 
 h3 {
   text-align: center;
   padding-bottom: 2%;
+  font-size: 10px;
 }
 
 p {
   text-align: center;
+  color: rgb(255, 147, 79);
+  font-size: 20px;
 }
 
+.lead {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*.applinks {
+    font-size: 1rem;
+    font-weight: 300;
+}*/
+
 a {
-  color: rgb(255, 147, 79);
+  /*color: rgb(255, 147, 79);*/
   text-decoration: none;
   text-align: center;
     a:hover {
      color: black;
-     text-decoration: underline;
+     text-decoration: none;
   }
 }
-
 
 .display-3 {
     font-size: 3rem;
@@ -39,7 +52,6 @@ a {
 .img-thumbnail {
     /*padding: 1.40rem;
     padding-bottom: 10%;*/
-
     padding: 50px 50px 50px 50px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -49,4 +61,11 @@ a {
     transition: all .2s ease-in-out;
     max-width: 100%;
     height: auto;
+}
+
+
+.aboutmelinks {
+  display: flex;
+  display: inline;
+  height: 20%;
 }

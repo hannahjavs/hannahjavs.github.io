@@ -16,11 +16,13 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#top">Hannah Jadavji</a>
+
+      <a class="navbar-brand" href="#aboutme" data-target="#aboutme">About me</a>
+
       <a class="navbar-brand" href="#top">Github</a>
       <a class="navbar-brand" href="#top">Twitter</a>
 
@@ -34,7 +36,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
-
             <h1 class="display-3">Hello, I'm Hannah</h1>
             <p class="lead">A full stack web developer</p>
             <p class="lead">hannahsiujadavji@gmail.com</p>
@@ -43,30 +44,62 @@
       </div>
     </div>
 
-    <main class="container">
+    <!-- images smooth scrolls -->
+    <!-- <main class="container">
       <div class="row">
         <section class="col-md-12">
           <div class="row">
             <div class="col-lg-3 col-sm-3">
             <a href="#smurfrace"><img src="images/smurfrace_1.jpg" alt="Smurf Race" class="img-fluid img-thumbnail" data-target="#smurfrace"></a>
             </div>
-
             <div class="col-lg-3 col-sm-3">
               <a href="#avocado"><img src="images/avocado_1.jpg" alt="Avocado" class="img-fluid img-thumbnail" data-target="#avocado"><a/>
             </div>
-
             <div class="col-lg-3 col-sm-3">
               <a href="#mapp"><img src="images/mapp_1.jpg" alt="Mapp" class="img-fluid img-thumbnail" data-target="#mapp"><a/>
             </div>
-
             <div class="col-lg-3 col-sm-3">
               <a href="#javify"><img src="images/javify_1.jpg" alt="Javify" class="img-fluid img-thumbnail" data-target="#javify"><a/>
-
             </div>
           </div>
         </section>
       </div>
+    </main> -->
+
+    <!-- worded smooth scroll -->
+    <main class="container">
+      <div class="row">
+        <section class="col-md-12">
+          <div class="row">
+            <div class="col-lg-3 col-sm-3">
+            <a href="#smurfrace">
+              <p class="applinks" data-target="#smurfrace">Smurf Race</p>
+            </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-3">
+            <a href="#avocado">
+              <p class="applinks" data-target="#avocado">Avocado Recipe Board</p>
+            </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-3">
+            <a href="#mapp">
+              <p class="applinks" data-target="#mapp">Mapp</p>
+            </a>
+            </div>
+
+            <div class="col-lg-3 col-sm-3">
+            <a href="#javify">
+              <p class="applinks" data-target="#javify">Javify</p>
+            </a>
+            </div>
+
+          </div>
+        </section>
+      </div>
     </main>
+
 
 <p>.</p>
 <p>.</p>
@@ -82,7 +115,7 @@
             <p class="lead">Race</p>
             <p class="lead">Project 0</p>
             <a href="https://the-smurf-race.herokuapp.com" target="_blank" id="applinks">www.the-smurf-race.herokuapp.com</a>
-            <a href="#top"><p data-target="#top">Back to top</p><a/>
+            <a href="#top"><p class="applinks" data-target="#top">Back To Top</p></a>
           </div>
         </div>
       </div>
@@ -115,6 +148,7 @@
             <h1 class="display-3">Avocado Recipe Board App</h1>
             <p class="lead">Project 1</p>
             <a href="https://avocado-recipe-board.herokuapp.com" target="_blank" id="applinks">www.avocado-recipe-board.herokuapp.com</a>
+            <a href="#top"><p class="applinks" data-target="#top">Back To Top</p></a>
           </div>
         </div>
       </div>
@@ -153,8 +187,8 @@
         </div>
       </div>
     </div>
+    <h3>To use the app, you must register as a member, you will then be able to see all of the recipes other users have and be able to leave comments, mark your favourites and rate recipes. You can then create a new recipe once you are a registered member. When you are adding a recipe you can type in the ingredients and the method and every time you hit enter it will create a bullet point for your recipe.</h3>
 
-        <h3>To use the app, you must register as a member, you will then be able to see all of the recipes other users have and be able to leave comments, mark your favourites and rate recipes. You can then create a new recipe once you are a registered member. When you are adding a recipe you can type in the ingredients and the method and every time you hit enter it will create a bullet point for your recipe.</h3>
 
     <!-- MAPP SECTION -->
     <div id="mapp" class="jumbotron jumbotron-fluid">
@@ -162,16 +196,15 @@
         <div class="row">
           <div class="col-md-10 offset-md-1">
             <h1 class="display-3">Mapp App</h1>
-            <p class="lead">Mapp</p>
+            <p class="lead">Project 2</p>
+            <a href="https://mapp-ga.herokuapp.com" target="_blank" id="applinks">www.mapp-ga.herokuapp.com</a>
+            <a href="#top"><p class="applinks" data-target="#top">Back To Top</p></a>
           </div>
         </div>
       </div>
     </div>
-    <h3>Mapp is a social planning app. An application to allow people to create social events and efit proposed events, and to allow creators of events to email out the invitations. This is a MEAN stack application, built in a group of three, with an Angular 1 front end, and making extensive use of the Google Maps, Places and Directions APIs. My role within the team consisted of taking the lead on the Express API back end, and the on route line that was created using markers when clicked by the user. Additionally, I made the design choices such as colour schemes, layout of pages and map style.
-    </h3>
-    <p>Technologies used:
-      Express, js, AngularJS, Google Maps API, Gulp, SCSS, MongoDB with Mongoose models, HTML5</p>
-
+    <h3>Mapp is a social planning app. An application to allow people to create social events and efit proposed events, and to allow creators of events to email out the invitations. This is a MEAN stack application, built in a group of three, with an Angular 1 front end, and making extensive use of the Google Maps, Places and Directions APIs. My role within the team consisted of taking the lead on the Express API back end, and the on route line that was created using markers when clicked by the user. Additionally, I made the design choices such as colour schemes, layout of pages and map style.</h3>
+    <p>Technologies used: Express, js, AngularJS, Google Maps API, Gulp, SCSS, MongoDB with Mongoose models, HTML5</p>
     <!-- screenshots of mapp app -->
     <div class="col-lg-4 col-sm-6">
       <img src="images/mapp_1.jpg" alt="Mapp" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#mapp_1">
@@ -191,19 +224,19 @@
     </div>
 
 
-
     <div id="javify" class="jumbotron jumbotron-fluid">
       <div class="container">
         <div class="row">
           <div class="col-md-10 offset-md-1">
             <h1 class="display-3">Javify</h1>
-            <p class="lead">Javify</p>
+            <p class="lead">Project 3</p>
+            <a href="https://javify.herokuapp.com" target="_blank" id="applinks">www.javify.herokuapp.com</a>
+            <a href="#top"><p class="applinks" data-target="#top">Back To Top</p></a>
           </div>
         </div>
       </div>
     </div>
     <h3>The user can add as many markers as they like which will show up in alphabetical order and if the user makes a mistake they can drag and drop or click the marker to erase that point in the route.  A user has their own profile page where they can see the posts that they have posted and can go back to the routes they have posted and either edit the route on the map or the playlist or podcast they have chosen to go with that route. </h3>
-
     <!-- screenshots of javify app -->
     <div class="col-lg-4 col-sm-6">
       <img src="images/javify_1.jpg" alt="Javify" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#javify_1">
@@ -221,6 +254,31 @@
         </div>
       </div>
     </div>
+
+
+    <!-- ABOUT ME -->
+    <div id="aboutme" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <a href="#top"><p class="applinks" data-target="#top">Back To Top</p></a>
+            <h1 class="display-3">About Me</h1>
+            <p class="lead">Architect turned full stack web developer</p>
+            <main class="container">
+              <div class="row">
+                <section class="col-md-12">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-3">
+                    <a href="https://github.com/hannahjavs" target="_blank"><img src="images/githublogo.svg" alt="Git Hub" class="aboutmelinks"></a>
+                    </div>
+                    </div>
+                  </main>
+                  <!-- ADD EXORCISM LOGO AND link -->
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </body>
 </html>
