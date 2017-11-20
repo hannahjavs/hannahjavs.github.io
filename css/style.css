@@ -79,9 +79,20 @@
   z-index: 1;
 }
 
+.navgithub {
+  width: 30%;
+  height: 20px;
+  padding-left: 50px;
+}
+
+
 h1 {
   color: #262626;
   font-size: 50px;
+}
+
+h2 {
+
 }
 
 h3 {
