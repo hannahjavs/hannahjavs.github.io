@@ -81,11 +81,6 @@
   height: 10%;
 }
 
-
-
-
-
-
 .applinks {
   /*margin-top: 100px;*/
   /*padding-bottom: 90%;*/
@@ -102,13 +97,13 @@
 }
 
 
+.secondrow {
+padding-top: 10px;
+}
+
 h1 {
   color: #262626;
   font-size: 50px;
-}
-
-h2 {
-
 }
 
 h3 {
@@ -156,15 +151,21 @@ a:hover {
 }
 
 .img-thumbnail {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: .25rem;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    max-width: 100%;
-    height: auto;
-    opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.8;
 }
 
 .img-thumbnail:hover {
@@ -172,7 +173,21 @@ a:hover {
   cursor: pointer;
 }
 
+.appbuttonlink {
+  padding-top: 30px;
+}
 
+.avocado-button {
+  background-color: #fafafa;
+}
+
+.avocado-button:hover {
+  background-color: #c8dc98;
+}
+
+/*.avocado {
+  background-color: green;
+}*/
 
 .sink {
   -webkit-transition:all .3s ease-out;
