@@ -1,60 +1,91 @@
 .project0 {
   background-image: url('../images/index_1.jpg');
-  background-size: cover;
   width: 100%;
-  height: 250px;
-  padding-top: 80px;
-  opacity: .6;
+  /*height: 250px;*/
+  height: 315px;
+  padding-top: 100px;
+  opacity: .9;
   border: 10px solid white;
-  padding-top: 80px;
+  padding-top: 120px;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
 .project0:hover {
   opacity: 1;
   transition: opacity 0.4s ease;
   cursor: pointer;
+  text-decoration: underline;
 }
-
 .project1 {
-  background-image: url('../images/avocado_4.jpg');
-  background-size: cover;
+  background-image: url('../images/index_1.jpg');
   width: 100%;
-  height: 250px;
-  padding-top: 80px;
-  opacity: .6;
+  /*height: 250px;*/
+  height: 315px;
+  padding-top: 100px;
+  opacity: .9;
   border: 10px solid white;
+  padding-top: 120px;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
 .project1:hover {
   opacity: 1;
   transition: opacity 0.4s ease;
   cursor: pointer;
+  text-decoration: underline;
 }
-
 .project2 {
-  background-image: url('../images/mapp_1.jpg');
-  background-size: cover;
+  background-image: url('../images/index_1.jpg');
   width: 100%;
-  height: 250px;
-  padding-top: 80px;
-  opacity: .8;
+  /*height: 250px;*/
+  height: 315px;
+  padding-top: 100px;
+  opacity: .9;
+  border: 10px solid white;
+  padding-top: 120px;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
 .project2:hover {
   opacity: 1;
   transition: opacity 0.4s ease;
   cursor: pointer;
+  text-decoration: underline;
 }
-
 .project3 {
-  background-image: url('../images/javify_1.jpg');
-  background-size: cover;
+  background-image: url('../images/index_1.jpg');
   width: 100%;
-  height: 250px;
-  padding-top: 80px;
-  opacity: .8;
+  /*height: 250px;*/
+  height: 315px;
+  padding-top: 100px;
+  opacity: .9;
+  border: 10px solid white;
+  padding-top: 120px;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
 .project3:hover {
   opacity: 1;
   transition: opacity 0.4s ease;
   cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.title1 {
+  padding-top: 40px;
 }
 
 .button {
