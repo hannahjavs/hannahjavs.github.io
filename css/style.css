@@ -70,6 +70,22 @@
   z-index: 1;
 }
 
+/*.skills {
+  display: flex;
+  justify-content: center;
+}*/
+
+.aboutmelinks {
+  display: flex;
+  display: inline;
+  height: 10%;
+}
+
+
+
+
+
+
 .applinks {
   /*margin-top: 100px;*/
   /*padding-bottom: 90%;*/
@@ -156,11 +172,7 @@ a:hover {
   cursor: pointer;
 }
 
-.aboutmelinks {
-  display: flex;
-  display: inline;
-  height: 20%;
-}
+
 
 .sink {
   -webkit-transition:all .3s ease-out;
