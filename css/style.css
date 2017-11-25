@@ -1,3 +1,7 @@
+.avatar {
+  border-radius: 50%;
+}
+
 h1 {
   color: #262626;
   font-size: 50px;
@@ -50,6 +54,9 @@ a:hover {
   padding-top: 10px;
 }
 
+
+
+/* NAVBAR */
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -57,10 +64,15 @@ a:hover {
   z-index: 9999;
   width: 100%;
   height: 50px;
-  background-color: #fafafa;
+  background-color: #262626;
+  color: #fafafa;
 }
-
-
+.navbar-light .navbar-nav .nav-link {
+  color: #fafafa;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    color: rgba(236, 232, 232, 0.9);
+}
 
 .project0 {
   background-image: url('../images/index_1.jpg');
@@ -147,22 +159,16 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .title1 {
   padding-top: 40px;
 }
 
-.button {
-  border-radius: 10%;
-  padding: 10px 10px 10px 10px;
-  color: orange;
-}
-
 .toplink {
   position: fixed;
-  bottom: 10px;
+  bottom: 15px;
   right: 10px;
   z-index: 1;
+  /*color: #fafafa;*/
 }
 
 .aboutmelinks {
@@ -186,50 +192,79 @@ a:hover {
   padding-left: 50px;
 }
 
-
 .secondrow {
-padding-top: 10px;
+  padding-top: 10px;
 }
 
-
 .img-thumbnail {
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  text-align: center;
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  /*background-position: center;*/
+  /*background-size: cover;*/
+  /*position: relative;*/
+  /*text-align: center;*/
   margin-bottom: 40px;
 
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: .25rem;
+  /*background-color: black;*/
+  /*border: 1px solid #ddd;*/
+  /*border-radius: .25rem;*/
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  max-width: 100%;
-  height: auto;
+  /*max-width: 100%;*/
+  /*height: auto;*/
   opacity: 0.8;
 }
-
 .img-thumbnail:hover {
-  opacity:1;
+  opacity: 1;
   cursor: pointer;
 }
 
+.img-iphone {
+  height: 150px;
+  width: 350px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  opacity: 0.8;
+}
+.img-iphone:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+
+/* BUTTONS */
 .appbuttonlink {
   padding-top: 30px;
 }
-
 .avocado-button {
-  background-color: #fafafa;
-}
-
-.avocado-button:hover {
   background-color: #c8dc98;
 }
+.avocado-button:hover {
+  background-color: #fafafa;
+}
+.javify-button {
+  background-color: #5fd488;
+}
+.javify-button:hover {
+  background-color: #fafafa;
+}
+.mapp-button {
+  background-color: #f06592;
+}
+.mapp-button:hover {
+  background-color: #fafafa;
+}
+.button {
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+  color: orange;
+}
 
-/*.avocado {
-  background-color: green;
-}*/
 
 .sink {
   -webkit-transition:all .3s ease-out;
