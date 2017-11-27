@@ -235,7 +235,7 @@ a:hover {
   opacity: 0.8;
 }
 .img-thumbnail:hover {
-  opacity: 1;
+  /*opacity: 1;*/
   cursor: pointer;
 }
 
@@ -248,7 +248,7 @@ a:hover {
   opacity: 0.8;
 }
 .img-iphone:hover {
-  opacity: 1;
+  /*opacity: 1;*/
   cursor: pointer;
 }
 
