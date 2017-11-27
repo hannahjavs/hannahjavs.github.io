@@ -274,6 +274,12 @@ a:hover {
 .mapp-button:hover {
   background-color: #fafafa;
 }
+.smurfrace-button {
+  background-color: #61b3ff;
+}
+.smurfrace-button:hover {
+  background-color: #fafafa;
+}
 .button {
   border-radius: 10%;
   padding: 10px 10px 10px 10px;

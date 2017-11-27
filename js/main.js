@@ -26,7 +26,7 @@ $(() => {
 
     // AUTO TYPING
     $('#autotype').typeIt({
-      speed: 50,
+      speed: 60,
       autoStart: false,
       loop: true
     })
@@ -42,7 +42,8 @@ $(() => {
       .tiType('...')
       .tiPause(750)
       .tiSettings({speed: 50})
-      .tiDelete()
+      // .tiDelete()
+      .tiBreak() .tiPause(750)
       .tiType('Click a link below to see my <strong>development</strong> work');
 
   });
