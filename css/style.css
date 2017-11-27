@@ -1,8 +1,13 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .avatar {
   border-radius: 50%;
 }
 
 h1 {
+  font-family: 'Quicksand';
   color: #262626;
   font-size: 50px;
 }
@@ -64,7 +69,8 @@ a:hover {
   z-index: 9999;
   width: 100%;
   height: 50px;
-  background-color: #262626;
+  /*background-color: #262626;*/
+  background-color: #ababab;
   color: #fafafa;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -74,6 +80,8 @@ a:hover {
     color: rgba(236, 232, 232, 0.9);
 }
 
+
+/* PROJECT IMAGE LINKS */
 .project0 {
   background-image: url('../images/index_1.jpg');
   width: 100%;
@@ -222,8 +230,8 @@ a:hover {
 }
 
 .img-iphone {
-  height: 150px;
-  width: 350px;
+  height: 130px;
+  width: 300px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -233,9 +241,6 @@ a:hover {
   opacity: 1;
   cursor: pointer;
 }
-
-
-
 
 /* BUTTONS */
 .appbuttonlink {
