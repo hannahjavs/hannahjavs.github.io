@@ -43,7 +43,7 @@ $(() => {
       .tiPause(750)
       .tiSettings({speed: 50})
       .tiDelete()
-      .tiType('Click a link below to see me <strong>development</strong> work');
+      .tiType('Click a link below to see my <strong>development</strong> work');
 
   });
 
