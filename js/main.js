@@ -26,7 +26,7 @@ $(() => {
 
     // AUTO TYPING
     $('#autotype').typeIt({
-      speed: 60,
+      speed: 90,
       autoStart: false,
       loop: true
     })
@@ -34,7 +34,7 @@ $(() => {
       .tiPause(500)
       .tiDelete(2)
       .tiType('ello, ')
-      .tiPause(1000)
+      .tiPause(900)
       .tiType('I\'m Hannah Jadavji,')
       .tiBreak() .tiPause(750)
       .tiType(' a full stack web developer')
