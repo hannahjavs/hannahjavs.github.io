@@ -2,6 +2,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.header {
+  height: 30vh;
+}
+
 .jumbatron {
   margin-bottom: 1rem;
 }
@@ -232,6 +236,7 @@ a:hover {
   width: 30%;
   height: 20px;
   padding-left: 50px;
+  float: right;
 }
 
 .secondrow {
