@@ -3,7 +3,7 @@ html {
 }
 
 .header {
-  height: 30vh;
+  height: 45vh;
 }
 
 .jumbatron {
@@ -37,7 +37,6 @@ h3 {
   font-size: 15px;
 }
 
-
 h4 {
   font-family: 'Quicksand';
   font-size: 3rem;
@@ -46,7 +45,6 @@ h4 {
   text-align: center;
   padding-top: 25px;
 }
-
 
 p {
   /*font-family: Pacifico,cursive;*/
@@ -68,6 +66,7 @@ a {
   color: #262626;
   text-decoration: none;
   text-align: center;
+  font-size: 12px;
 }
 
 a:hover {
@@ -101,8 +100,6 @@ a:hover {
   z-index: 9999;
   width: 100%;
   height: 50px;
-  /*background-color: #262626;*/
-  /*background-color: #ababab;*/
   background-color: #5ec5af;
   color: #fafafa;
 }
@@ -115,16 +112,15 @@ a:hover {
     background-color: #5ec5af;
 }
 
-
 /* PROJECT IMAGE LINKS */
 .project0 {
   background-image: url('../images/index_1.png');
   width: 100%;
   /*height: 250px;*/
-  height: 315px;
-  padding-top: 100px;
+  /*height: 315px;*/
+  /*padding-top: 100px;*/
   opacity: .9;
-  border: 10px solid white;
+  /*border: 10px solid white;*/
   padding-top: 120px;
 
   background-position: center;
@@ -141,11 +137,10 @@ a:hover {
 .project1 {
   background-image: url('../images/index_2.png');
   width: 100%;
-  /*height: 250px;*/
   height: 315px;
   padding-top: 100px;
   opacity: .9;
-  border: 10px solid white;
+  /*border: 10px solid white;*/
   padding-top: 120px;
 
   background-position: center;
@@ -166,7 +161,7 @@ a:hover {
   height: 315px;
   padding-top: 100px;
   opacity: .9;
-  border: 10px solid white;
+  /*border: 10px solid white;*/
   padding-top: 120px;
 
   background-position: center;
@@ -187,7 +182,7 @@ a:hover {
   height: 315px;
   padding-top: 100px;
   opacity: .9;
-  border: 10px solid white;
+  /*border: 10px solid white;*/
   padding-top: 120px;
 
   background-position: center;
@@ -333,9 +328,13 @@ a:hover {
   cursor: pointer;
 }
 
+.modal {
+  max-width: 120%;
+}
+
 .modal-body  {
-  max-width: 100%;
-  opacity: 0.7;
+  height: 120%;
+  width: 120%;
 }
 
 .jumbotron {
