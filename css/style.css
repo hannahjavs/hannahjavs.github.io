@@ -76,11 +76,11 @@ a:hover {
 }
 
 .display-3 {
-  font-size: 3rem;
+  font-size: 35px;
   font-weight: 300;
   line-height: 1.1;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 80px;
 }
 
 .display-4 {
