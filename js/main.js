@@ -1,6 +1,5 @@
 $(() => {
   console.log('this is jquery and im loaded');
-
   $(document).ready(function(){
     // Add smooth scrolling to all links
     $('a').on('click', function(event) {
@@ -17,7 +16,6 @@ $(() => {
         $('html, body').animate({
           scrollTop: $(hash).offset().top
         }, 800, function(){
-
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         });
@@ -30,22 +28,20 @@ $(() => {
       autoStart: false,
       loop: true
     })
-      .tiType('Hll')
+      .tiType('Hi')
       .tiPause(500)
       .tiDelete(2)
-      .tiType('ello, ')
+      .tiType('Hello, ')
       .tiPause(900)
-      .tiType('I\'m Hannah Jadavji,')
+      .tiType('I\'m Hannah,')
       .tiBreak() .tiPause(750)
-      .tiType(' a full stack web developer')
+      .tiType(' a full stack developer')
       .tiSettings({speed: 700})
       .tiType('...')
       .tiPause(750)
       .tiSettings({speed: 50})
-      // .tiDelete()
-      .tiBreak() .tiPause(750)
-      .tiType('Click a link below to see my <strong>development</strong> work');
-
+      .tiDelete()
+      .tiBreak() .tiPause(850)
+      .tiType('Please click a link below to see my <strong>development</strong> work');
   });
-
 });
