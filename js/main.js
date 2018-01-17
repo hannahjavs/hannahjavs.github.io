@@ -34,6 +34,7 @@ $(() => {
       .tiType('Hello, ')
       .tiPause(900)
       .tiType('I\'m Hannah,')
+      .tiPause(750)
       .tiBreak() .tiPause(750)
       .tiType(' a full stack developer')
       .tiSettings({speed: 700})
@@ -41,7 +42,8 @@ $(() => {
       .tiPause(750)
       .tiSettings({speed: 50})
       .tiDelete()
-      .tiBreak() .tiPause(850)
+      .tiPause(850)
+      // .tiBreak() .tiPause(850)
       .tiType('Please click a link below to see my <strong>development</strong> work');
   });
 });
