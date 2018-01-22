@@ -13,7 +13,6 @@ html {
 
 .avatar {
   border-radius: 50%;
-  /*text-align: center;*/
 }
 
 h1 {
@@ -21,14 +20,11 @@ h1 {
   text-align: center;
   color: #262626;
   font-size: 35px;
-  /*padding-top: 50px;*/
-  /*padding-bottom: 250px;*/
 }
 
 h2 {
   font-family: 'Quicksand';
   text-align: center;
-  /*padding-bottom: 2%;*/
   font-size: 15px;
 }
 
@@ -49,9 +45,6 @@ h4 {
 }
 
 p {
-  /*font-family: Pacifico,cursive;*/
-  /*padding-top: 50px;*/
-  /*padding-bottom: 100px;*/
   text-align: center;
   color: #262626;
   font-size: 20px;
@@ -102,27 +95,23 @@ a:hover {
   z-index: 9999;
   width: 100%;
   height: 50px;
-  background-color: #5ec5af;
+  background-color: #e2a900;
   color: #fafafa;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #fafafa;
-  background-color: #5ec5af;
+  background-color: #e2a900;
 }
 .navbar-light .navbar-brand, .navbar-light .navbar-toggler {
     color: rgba(236, 232, 232, 0.9);
-    background-color: #5ec5af;
+    background-color: #e2a900;
 }
 
 /* PROJECT IMAGE LINKS */
 .project0 {
   background-image: url('../images/index_1.png');
   width: 100%;
-  /*height: 250px;*/
-  /*height: 315px;*/
-  /*padding-top: 100px;*/
   opacity: .9;
-  /*border: 10px solid white;*/
   padding-top: 120px;
 
   background-position: center;
@@ -142,9 +131,7 @@ a:hover {
   height: 315px;
   padding-top: 100px;
   opacity: .9;
-  /*border: 10px solid white;*/
   padding-top: 120px;
-
   background-position: center;
   background-size: cover;
   position: relative;
@@ -159,13 +146,10 @@ a:hover {
 .project2 {
   background-image: url('../images/index_3.png');
   width: 100%;
-  /*height: 250px;*/
   height: 315px;
   padding-top: 100px;
   opacity: .9;
-  /*border: 10px solid white;*/
   padding-top: 120px;
-
   background-position: center;
   background-size: cover;
   position: relative;
@@ -180,13 +164,10 @@ a:hover {
 .project3 {
   background-image: url('../images/index_4.png');
   width: 100%;
-  /*height: 250px;*/
   height: 315px;
   padding-top: 100px;
   opacity: .9;
-  /*border: 10px solid white;*/
   padding-top: 120px;
-
   background-position: center;
   background-size: cover;
   position: relative;1
@@ -208,9 +189,6 @@ a:hover {
   bottom: 15px;
   right: 10px;
   z-index: 1;
-  /*color: #fafafa;*/
-  /*border: 1px solid black;*/
-  /*padding: 5px 5px 5px 5px;*/
 }
 
 .aboutmelinks {
@@ -220,11 +198,8 @@ a:hover {
 }
 
 .applinks {
-  /*margin-top: 100px;*/
-  /*padding-bottom: 90%;*/
   padding-top: 55px;
-  /*color: #e91e63;*/
-  color: #5ec5af;
+  color: #e2a900;
   font-size: 20px;
   z-index: 1;
 }
@@ -244,24 +219,13 @@ a:hover {
   height: 166px;
   width: 300px;
   object-fit: cover;
-  /*background-position: center;*/
-  /*background-size: cover;*/
-  /*position: relative;*/
-  /*text-align: center;*/
   margin-bottom: 35px;
-
-  /*background-color: black;*/
-  /*border: 1px solid #ddd;*/
-  /*border-radius: .25rem;*/
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  /*max-width: 100%;*/
-  /*height: auto;*/
   opacity: 0.8;
 }
 .img-thumbnail:hover {
-  /*opacity: 1;*/
   cursor: pointer;
 }
 
@@ -274,7 +238,6 @@ a:hover {
   opacity: 0.8;
 }
 .img-iphone:hover {
-  /*opacity: 1;*/
   cursor: pointer;
 }
 
@@ -341,4 +304,10 @@ a:hover {
 
 .jumbotron {
   background-color: #fafafa;
+}
+
+.pdf {
+  /*transform: translate(60%, 1%);*/
+  height: 770px;
+  display: inline;
 }
