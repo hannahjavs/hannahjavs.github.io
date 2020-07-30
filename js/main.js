@@ -21,29 +21,18 @@ $(() => {
         });
       } // End if
     });
-
     // AUTO TYPING
-    $('#autotype').typeIt({
-      speed: 90,
-      autoStart: false,
-      loop: true
-    })
-      .tiType('Hi')
-      .tiPause(500)
-      .tiDelete(2)
-      .tiType('Hello, ')
-      .tiPause(900)
-      .tiType('I\'m Hannah,')
-      .tiPause(750)
-      .tiBreak() .tiPause(750)
-      .tiType(' a full stack developer')
-      .tiSettings({speed: 700})
-      .tiType('...')
-      .tiPause(750)
-      .tiSettings({speed: 50})
-      .tiDelete()
-      .tiPause(850)
-      // .tiBreak() .tiPause(850)
-      .tiType('Please click a link below to see my <strong>development</strong> work');
+    // $('#autotype').typeIt({
+    //   speed: 90,
+    //   autoStart: false,
+    //   loop: true
+    // })
+    //   .tiType('Thanks,')
+    //   .tiPause(500)
+    //   .tiDelete(2)
+    //   .tiType('for visiting')
+    //   .tiPause(900)
+    //   .tiType('!')
+    //   .tiPause(750);
   });
 });
