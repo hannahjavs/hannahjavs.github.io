@@ -15,24 +15,11 @@ $(() => {
         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
         $('html, body').animate({
           scrollTop: $(hash).offset().top
-        }, 800, function(){
+        }, 1000, function(){
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         });
       } // End if
     });
-    // AUTO TYPING
-    // $('#autotype').typeIt({
-    //   speed: 90,
-    //   autoStart: false,
-    //   loop: true
-    // })
-    //   .tiType('Thanks,')
-    //   .tiPause(500)
-    //   .tiDelete(2)
-    //   .tiType('for visiting')
-    //   .tiPause(900)
-    //   .tiType('!')
-    //   .tiPause(750);
   });
 });
